@@ -8,7 +8,7 @@ from collections import deque
 # =====================================
 # STREAMLIT CONFIG
 # =====================================
-st.set_page_config(page_title="Vehicle Counting", layout="wide")
+st.set_page_config(page_title="Vehicle Counting & Classification", layout="wide")
 
 UPLOAD_FOLDER = "uploads"
 OUTPUT_FOLDER = "outputs"
@@ -126,7 +126,7 @@ def process_video(input_path, output_path):
 # =====================================
 # UI
 # =====================================
-st.title("🚗 Vehicle Counting System (Perfect Count)")
+st.title("🚗 Vehicle Counting & Classification System")
 
 video = st.file_uploader("Upload Traffic Video", type=["mp4", "avi", "mov"])
 
