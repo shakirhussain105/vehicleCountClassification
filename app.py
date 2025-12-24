@@ -142,7 +142,7 @@ if video:
             counts = process_video(in_path, out_path)
 
         st.success("Processing complete ✅")
-       // st.video(out_path)
+       # st.video(out_path)
 
         st.subheader("📊 Vehicle Counts")
         for k, v in counts.items():
